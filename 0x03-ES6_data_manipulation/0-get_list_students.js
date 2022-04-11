@@ -1,5 +1,5 @@
 export default function getListStudents () {
-  return [
+  return new Array(
     {
       id: 1,
       firstname: 'Guillaume',
@@ -15,5 +15,5 @@ export default function getListStudents () {
       firstname: 'Serena',
       location: 'San Francisco'
     }
-  ];
+  );
 }
